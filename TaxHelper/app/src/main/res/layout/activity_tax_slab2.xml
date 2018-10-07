@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8d8d8"
+    tools:context="com.example.user.taxhelper.TaxSlab2">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="22dp"
+            android:text="2018-19"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="22dp"
+            android:text="Senior Citizen"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TableLayout
+            android:stretchColumns="1"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow
+                android:background="#585858">
+                <TextView
+                    android:padding="3dp"
+                    android:text="From"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="To"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="Tax %"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="Sur."
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow
+                android:background="#d8d8d8">
+                <TextView
+                    android:padding="3dp"
+                    android:text="0"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="300000"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="0%"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="0%"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow android:background="#e6e6e6">
+                <TextView
+                    android:padding="3dp"
+                    android:text="300000"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="500000"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="5%"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="0%"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow android:background="#d8d8d8">
+                <TextView
+                    android:padding="3dp"
+                    android:text="500000"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="1000000"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="20%"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="0%"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow android:background="#e6e6e6">
+                <TextView
+                    android:padding="3dp"
+                    android:text="1000000"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="5000000"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="30%"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="0%"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow android:background="#d8d8d8">
+                <TextView
+                    android:padding="3dp"
+                    android:text="5000000"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="10000000"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="30%"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="10%"
+                    android:textSize="20sp"/>
+            </TableRow>
+            <TableRow android:background="#e6e6e6">
+                <TextView
+                    android:padding="3dp"
+                    android:text="10000000"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text=" onwards"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="30%"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:padding="3dp"
+                    android:text="15%"
+                    android:textSize="20sp"/>
+            </TableRow>
+        </TableLayout>
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

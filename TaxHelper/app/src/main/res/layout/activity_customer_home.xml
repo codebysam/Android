@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d8d8d8"
+    tools:context="com.example.user.taxhelper.CustomerHome">
+
+    <LinearLayout
+        android:id="@+id/customhome1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/fullName3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:text="Samir Ahmad"
+            android:textColor="#000000"
+            android:textSize="30dp" />
+
+
+        <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/card_view_content_customhome"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            card_view:cardBackgroundColor="#f2f2f2"
+            card_view:cardCornerRadius="20dp"
+            card_view:contentPadding="20dp"
+            android:layout_margin="20dp"
+            card_view:cardElevation="15dp">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/grid1"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/view_profile"
+                    android:orientation="vertical"
+                    card_view:layout_constraintStart_toStartOf="parent"
+                    card_view:layout_constraintTop_toTopOf="parent"></ImageView>
+
+                <ImageView
+                    android:id="@+id/grid5"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/links"
+                    android:orientation="vertical"
+                    card_view:layout_constraintStart_toStartOf="parent"
+                    card_view:layout_constraintTop_toBottomOf="@+id/grid3"></ImageView>
+
+                <ImageView
+                    android:id="@+id/grid3"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/taxslab"
+                    android:orientation="vertical"
+                    card_view:layout_constraintStart_toStartOf="parent"
+                    card_view:layout_constraintTop_toBottomOf="@+id/grid1"></ImageView>
+
+                <ImageView
+                    android:id="@+id/grid6"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/settings"
+                    android:orientation="vertical"
+                    card_view:layout_constraintStart_toEndOf="@+id/grid5"
+                    card_view:layout_constraintTop_toBottomOf="@+id/grid4"></ImageView>
+
+                <ImageView
+                    android:id="@+id/grid4"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/itreturn"
+                    android:orientation="vertical"
+                    card_view:layout_constraintStart_toEndOf="@+id/grid3"
+                    card_view:layout_constraintTop_toBottomOf="@+id/grid2"></ImageView>
+
+                <ImageView
+                    android:id="@+id/grid2"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="28dp"
+                    android:layout_marginTop="24dp"
+                    android:background="@drawable/quick_tax"
+                    android:orientation="vertical"
+                    card_view:layout_constraintStart_toEndOf="@+id/grid1"
+                    card_view:layout_constraintTop_toTopOf="parent"></ImageView>
+
+
+            </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Tax Helper</string>
+
+    <string-array name="genderoptions">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="years">
+        <item>2018-19</item>
+        <item>2017-18</item>
+        <item>2016-17</item>
+    </string-array>
+
+    <string-array name="usertype">
+        <item>Individual Youth</item>
+        <item>Senior Citizen</item>
+        <item>Supersenior Citizen</item>
+    </string-array>
+</resources>
